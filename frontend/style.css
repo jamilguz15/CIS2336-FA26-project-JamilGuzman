@@ -13,9 +13,14 @@ html {
     background-color: #54585A;
 }
 
-h1 {
+main {
     background-color: white;
-    padding: 0;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    padding:0;
     margin: 0;
 }
 
@@ -34,17 +39,29 @@ ul {
     background-color: #960C22;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    margin: 0;
 }
 
 .navigation-bar {
     background-color: #960C22;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .nav-option-bar {
     display: flex;
-    gap: 32px;
+    gap: 16px;
+}
+
+.nav-option-bar a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-option-bar a:hover {
+    background-color: #640817
 }
 
 .nav-option {
