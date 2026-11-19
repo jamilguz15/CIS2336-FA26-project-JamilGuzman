@@ -4,8 +4,25 @@
 
 html, body {
   margin: 0;
-  padding: 0;
+  padding-left: 2%;
+  padding-right: 2%;
   width: 100%;
+}
+
+html {
+    background-color: #54585A;
+}
+
+h1 {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -21,17 +38,34 @@ html, body {
     padding-bottom: 1.5%;
 }
 
+.navigation-bar {
+    background-color: #960C22;
+}
+
+.nav-option-bar {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-option {
+    color: #FFF9D9;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-decoration: none;
+}
+
 .plain-link {
     color: white;
     text-decoration: none;
 }
 
 #uh-logo {
-    width: 50%;
+    width: 10%;
 }
 
 #sugar-land-student-center {
     font-family: 'League Gothic', sans-serif;
     font-optical-sizing: auto;
-    font-size: calc(44px + 12 * (100vw - 992px) / 208);
+    font-size: 400%;
 }
