@@ -44,7 +44,7 @@ ul {
 
 .nav-option-bar {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .nav-option {
