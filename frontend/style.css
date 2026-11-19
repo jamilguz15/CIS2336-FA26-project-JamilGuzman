@@ -13,6 +13,25 @@ html, body {
     padding: 20px;
 }
 
+.secondary-container {
+    background-color: #960C22;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.plain-link {
+    color: white;
+    text-decoration: none;
+}
+
 #uh-logo {
     width: 50%;
+}
+
+#sugar-land-student-center {
+    font-family: 'League Gothic', sans-serif;
+    font-optical-sizing: auto;
+    font-size: calc(44px + 12 * (100vw - 992px) / 208);
 }
